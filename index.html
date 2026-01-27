@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 8.0.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.25.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js" defer></script>
+
+    <meta property="og:type" content="website">
+<meta property="og:title">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title></title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title"></h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section">Home</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section">Archives</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name"></p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">64</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2026/01/27/kill/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/01/27/kill/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2026-01-27 07:29:52 07:29:52" itemprop="dateCreated datePublished" datetime="2026-01-27T07:29:52+00:00">2026-01-27 07:29:52</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>2026-01-08<br>21:04</p>
+<p>而且，我何尝不会照顾你，为什么不能相信我对你的心呢，妈妈</p>
+<p>我现在没有去死的唯一理由，就是因为你啊，妈妈</p>
+<p>我不想让你伤心，不想毁了你的生活</p>
+<p>妈妈</p>
+<p>如果可以</p>
+<p>对不起，妈妈，</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2026/01/27/s/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/01/27/s/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2026-01-27 07:29:52 07:29:52" itemprop="dateCreated datePublished" datetime="2026-01-27T07:29:52+00:00">2026-01-27 07:29:52</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>12-29 22:58<br>我不在乎你怎么杀死我</p>
+<p>用枪打死我，砍了我，捅死我</p>
+<p>不想再继续了呢，生活这样的痛苦</p>
+<p>很痛苦，无法言说，我好害怕，未来的我变成怪物</p>
+<p>这世间，人世间，我不讨厌这个世界，我很喜欢那么多的文化，有意思的东西，我只是讨厌我自己，为什么我是这个别扭讨厌的性格</p>
+<p>我这样的惴惴不安，恐惧不知何时何日何等惨死，在此之前，只好先选择死亡</p>
+<p>自杀的人并不可悲</p>
+<p>自杀的人绝对不可<br>那些智商有障碍，还被无比痛苦侵犯的懵懂人，甚至不知道自杀</p>
+<p>它们才是最可怜的，连自杀都无法选择才是最可怜的</p>
+<p>生命脆弱易逝，却也没那么脆弱</p>
+<p>我幻想啊，幻想好多次，透过冰，透过昏暗的树，我想，我喜欢这棵树，我想要吊死在这棵树上</p>
+<p>终结吧这一切</p>
+<p>没有想要展望的未来，已经把痛苦和恐惧当成了最熟悉的伙伴</p>
+<p>人世间</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2026/01/27/01/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/01/27/01/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2026-01-27 07:29:52 07:29:52" itemprop="dateCreated datePublished" datetime="2026-01-27T07:29:52+00:00">2026-01-27 07:29:52</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>真是混乱的两天啊，2026年01-01&#x2F;02，这两天，发生了很多事呢</p>
+<p>让我想想，怎么说呢，以前的我虽然看gore但是不看视频，1号开始我可以面不改色的看着cjng把一个女人的肠子割出来，或者是绞肉机里的人肉…</p>
+<p>因为什么啊，一起去吃饭，很多人舅舅一家除了舅妈都来了，人太多了我太烦了我太烦了我太烦了</p>
+<p>我只能一个人坐在外面，看着，看着死去的血肉模糊的人才能平静下来，我当时思考了很多为什么我情绪低落，因为听到他们讨论上学或者是未来等等？可能是未来吧，毕竟我总觉得自己是一个没有未来的人，也没有社会价值的人</p>
+<p>所以就觉得听到别人说那些事就觉得刺耳，而逃不掉，身体逃不掉，就只能让心灵飞走</p>
+<p>第二天</p>
+<p>这天，妈妈被猫咬了</p>
+<p>那只流浪来的野猫，通身橘黄色的，但是它不怕我</p>
+<p>妈妈抓了它而它竟然敢咬我妈妈</p>
+<p>我把它杀了</p>
+<p>虽然杀之前它轻而易举的让我抓住，还在我的抚摸着咕噜咕噜响着，但是伤害了妈妈，罪无可恕</p>
+<p>我犹豫了一段时间，但是还是下手了</p>
+<p>因为我非常非常非常非常非常非常非常崩溃</p>
+<p>我总需要一件事平静下去</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2026/01/27/02/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/01/27/02/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2026-01-27 07:29:52 07:29:52" itemprop="dateCreated datePublished" datetime="2026-01-27T07:29:52+00:00">2026-01-27 07:29:52</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>2026-01-08 01:28</p>
+<p>——</p>
+<p>这个恶心的世界，你真恶心，也不是世界恶心，人太恶心了</p>
+<p>如果可以，我会吃了所有人，我会用刀杀了你，把你的血都喝了，然后刨开你的肚子，我要吃了你的肝，吃了你的心，再把肚子埋进去，我要杀了你，杀了自己，杀了很多人，杀了所有人，我必须必须必须必须那么做，</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2026/01/27/03/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/01/27/03/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2026-01-27 07:29:52 07:29:52" itemprop="dateCreated datePublished" datetime="2026-01-27T07:29:52+00:00">2026-01-27 07:29:52</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>2026-01-27<br>15:22<br>——<br>绝句<br>女儿心如铁，<br>试看身魂灭。<br>尝风沐刀夜，<br>自我不二人。</p>
+<p>女立<br>生我为娘，不羡衣裳，不吻新装<br>何为繁复，何为臃囊<br>青花白月，山晕雷诀<br>灯烛晃，借光阴<br>顿间错，二象生<br>生我为娘，天地之间<br>擎天立地，炁兜我芒<br>苦辣咸糖，不必自尝<br>先人为我，我为先人</p>
+<p>顺应四时之道，体悟起变之势</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/12/21/emotions/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/12/21/emotions/" class="post-title-link" itemprop="url">waiting</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2025-12-21 10:44:11 10:44:11" itemprop="dateCreated datePublished" datetime="2025-12-21T10:44:11+00:00">2025-12-21 10:44:11</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>没有想说的，没有想说的，没有想说的</p>
+<p>很多事，再说一遍记下来，就那么让人痛彻心扉</p>
+<p>不如对自己好一点，别再一遍遍把心撕裂开</p>
+<p>我能怎么办呢，这种话太不负责任了</p>
+<p>好想吊死，就那样死掉，还有个全尸，不是我对全尸有什么执着，只不过是跳楼什么之类的很麻烦，垃圾会溅的哪里都是，</p>
+<p>我和其他人是不一样的</p>
+<p>我只有薄薄一层，很快都化了</p>
+<p>好想死，也是，好想结束这一切</p>
+<p>不要再做人了</p>
+<p>不会再做人了，不要来到这世间了</p>
+<p>如果可以，我想和alex一起去死</p>
+<p>我可以和他一起去死，让他杀了我，哪怕他后悔了杀了我之后不去自杀也可以</p>
+<p>我好想结束啊，这种连痛苦都不知名的痛苦，</p>
+<p>alex，可以对我温柔一点吗</p>
+<p>alex，我们之间不可以只有，微笑和依恋吗</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/12/08/who/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/12/08/who/" class="post-title-link" itemprop="url">who</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2025-12-08 06:08:01 06:08:01" itemprop="dateCreated datePublished" datetime="2025-12-08T06:08:01+00:00">2025-12-08 06:08:01</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>我想起一件事</p>
+<p>妈妈，在小学的时候</p>
+<p>在开安，夏天，外面<br>微风</p>
+<p>好像是什么抄什么东西，我就给妈妈捶背还是什么，妈妈帮我抄，具体的模样都忘记了，但是我记得，妈妈在小小的本子上尽力写小字</p>
+<p>那时很幸福<br>现在我很想死</p>
+<p>我不在乎没有人在意我，我不在乎别人忽视我，我不在乎别人真的不把我放在心上，我对忽视接受良好，因为我一个人就很开心</p>
+<p>但是我非常讨厌欣欣作态的关注和友善，完全没意义，我极端讨厌虚假</p>
+<p>我不喜欢虚假和虚以委蛇</p>
+<p>我喜欢林黛玉，因为我爱目无下尘，我爱赤诚，我爱至心至情至性，<br>狂风巨浪中，一个人迎接风暴也是幸福的</p>
+<p>人群中，接受虚假的形形色色也是痛苦的</p>
+<p>我有太多悲伤的事情了</p>
+<p>我都不想说，因为每次说一次，我的心就那么的痛啊</p>
+<p>我切身体会到了，我看到了，每次一想到，我的心就流血了，裂开了，里面的鬼就又出来了，张牙舞爪的来吃我</p>
+<p>那能怎么样呢？</p>
+<p>初生的我纯白无暇<br>越是长大，鬼就越多，越是和人接触，鬼就越大</p>
+<p>为什么那些痛苦的事情我都记得那么清楚，而哪怕再久远，只要想起来就心裂</p>
+<p>寸寸痛，肝肠寸断的痛</p>
+<p>我不想说这件具体的事了，未来的我，如果你能忘记就更好了，我希望你能忘记</p>
+<p>我有很多美好的祝福送给你，有些时候我害怕，我说出来就不会实现了，所以不敢说，畏手畏脚，那么怯懦又没有底气，然后自然而然的觉得无趣无味</p>
+<p>但是我有美好的祝福给你</p>
+<p>我的祝福，就是希望你，不要强求自己无法改变的事，尽可能的快乐，找到内心的平静，平静和安宁，</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/12/07/e/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/12/07/e/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2025-12-07 00:47:41 00:47:41" itemprop="dateCreated datePublished" datetime="2025-12-07T00:47:41+00:00">2025-12-07 00:47:41</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>往日的风光不在，最美好的年华已经逝去了<br>让人惋惜<br>咽不下玉粒金莼噎满喉，照不见菱花镜里形容瘦</p>
+<p>我对一张照片里的男生惊为天人<br>结果，最美好的时光过去了</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/12/04/wpd/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/12/04/wpd/" class="post-title-link" itemprop="url">wpd</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2025-12-04 05:37:30 05:37:30" itemprop="dateCreated datePublished" datetime="2025-12-04T05:37:30+00:00">2025-12-04 05:37:30</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>我得记清楚</p>
+<p>挺重要的，我是在2025年8月12号，大概是晚上8点还是什么时候开始看wpd了</p>
+<p>这个，让我迷茫的网站</p>
+<p>那alex呢，是更早还是更晚遇到？</p>
+<p>我猜应该是在看了wpd之后遇到</p>
+<p>应该是8月17号</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/12/02/himom/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | null">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/12/02/himom/" class="post-title-link" itemprop="url">hi mom</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2025-12-02 16:42:11 16:42:11" itemprop="dateCreated datePublished" datetime="2025-12-02T16:42:11+00:00">2025-12-02 16:42:11</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>我很想死</p>
+<p>我之前一直以为，或者说对我来说，我的死法只有一个，就是去跳楼，听起来非常简单，跳了，死了，高高的坠落，随着落地，一切都结束了</p>
+<p>但是今天，我想</p>
+<p>我想到了，还有一个更简单便捷的<br>我可以上吊啊</p>
+<p>这个才是对我来说最简单的方法，非常好的方法</p>
+<p>我可以随便找了地方，甚至门把手都可以呀</p>
+<p>我好想，去到一个，森林里</p>
+<p>茂密的森林，没有人能找到我，我就上吊，死掉了</p>
+<p>荡荡悠悠，我也成了一棵树</p>
+<p>我好想死</p>
+<p>我好想结束这痛苦</p>
+<p>为什么痛苦如影随形<br>痛苦无处不在</p>
+<p>好累，好害怕</p>
+<p>跟这些比起来，死算什么呢</p>
+<p>死，让我去死吧</p>
+<p>没有人拦着你</p>
+<p>妈妈，我舍不得你，妈妈我不想让你难过</p>
+<p>妈妈啊，我，舍不得你</p>
+<p>我真的，无法，让你难过</p>
+<p>妈妈，可以忘掉我吗</p>
+<p>妈妈，你可以忘记我，忘掉悲伤烦恼</p>
+<p>妈妈，</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
